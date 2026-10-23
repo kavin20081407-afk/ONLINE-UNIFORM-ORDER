@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Stitching Uniforms</title><link rel="stylesheet" href="stitching.css">
+    </head>    
+    <body>
+        <nav class="nav"><div class="brand">Uniform Tailors</div>
+            <a href="index.html">Home</a><a href="ready_made.html">Ready-made</a><a href="stitching.html">Stitching</a><a href="accessories.html">Accessories</a>
+        </nav>
+        <header class="page-header"><h1> Stitching Uniforms </h1></header>
+        <main class="container"><form class="form-card">
+            <div>
+                <h2 class="uniform">Uniform stitching Order</h2>
+            </div>
+            <div class="form-group"><label>Select District</label><select><option>Chennai</option><option>Coimbatore</option><option>Madurai</option><option>Kallakuruchi<option>Tiruppur</option><option>Nagercoil</option><option>Salem</option><option>Ariyalur</option></select></div>
+            <div class="form-group"><label>Select School</label><select><option>Sri Sankara Matriculation School</option><option>Bharath dass School</option><option>Nellai Nadar School</option><option>Sri Iyappa School</option><option>Nehru hr.sec.school</option></select></div>
+            <div class="form-group"><label>Uniform Type</label><select><option>Shirt</option><option>Pant</option><option>Skirt</option><option>Full Uniform</option></select></div>
+            <div>
+                <h2 class="measurement">Measurements</h2>
+            </div>
+            <div class="form-group"><label>Chest (inches)</label><input type="number" min="1" placeholder="Enter chest measurement"></div>
+            <div class="form-group"><label>Waist (inches)</label><input type="number" min="1" placeholder="Enter waist measurement"></div>
+            <div class="form-group"><label>Height (cm)</label><input type="number" min="1" placeholder="Enter height"></div>
+            <div class="form-group"><label>Cloth Required (metres)</label><input type="number" min="0" step="0.1" placeholder="e.g. 1.5"></div>
+            <button class="btn submit" type="submit">Place Stitching Order</button>
+        </form>
+    </main>
+</body>
+</html>
